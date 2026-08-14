@@ -500,10 +500,10 @@ class HomePage extends StatelessWidget {
 
 > ✅ **Checkpoint 2.2** ทดสอบว่าเมื่อบันทึกสินค้าจากหน้า Home แล้วกดไปหน้า Favorites ตัวเลขและรายการสินค้าตรงกันทันที ลองกดปุ่มถังขยะลบสินค้าออกจากหน้า Favorites แล้วย้อนกลับไปหน้า Home ดูว่าปุ่มของสินค้านั้นกลับมากดซ้ำได้อีกครั้ง ถ่ายภาพหน้าจอทั้งสองหน้าเทียบกันแนบส่ง
 
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+![หน้า Home แสดงการกดบันทึกผ่าน Provider](images/image.png)
+![หน้า FavoritesPage แสดงรายการและราคารวม](images/image-1.png)
+![หน้า FavoritesPage กดลบสินค้าออกจากรายการโปรด](images/image-2.png)
+![หน้า Home ย้อนกลับมา ปุ่มกลับมากดบันทึกได้อีกครั้ง](images/image-3.png)
 ---
 
 ## ส่วนที่ 3: ใช้ AI ช่วยเลือกแนวทาง State Management
