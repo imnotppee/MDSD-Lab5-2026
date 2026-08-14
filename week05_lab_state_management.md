@@ -500,10 +500,10 @@ class HomePage extends StatelessWidget {
 
 > ✅ **Checkpoint 2.2** ทดสอบว่าเมื่อบันทึกสินค้าจากหน้า Home แล้วกดไปหน้า Favorites ตัวเลขและรายการสินค้าตรงกันทันที ลองกดปุ่มถังขยะลบสินค้าออกจากหน้า Favorites แล้วย้อนกลับไปหน้า Home ดูว่าปุ่มของสินค้านั้นกลับมากดซ้ำได้อีกครั้ง ถ่ายภาพหน้าจอทั้งสองหน้าเทียบกันแนบส่ง
 
-![หน้า Home แสดงการกดบันทึกผ่าน Provider](images/image.png)
-![หน้า FavoritesPage แสดงรายการและราคารวม](images/image-1.png)
-![หน้า FavoritesPage กดลบสินค้าออกจากรายการโปรด](images/image-2.png)
-![หน้า Home ย้อนกลับมา ปุ่มกลับมากดบันทึกได้อีกครั้ง](images/image-3.png)
+![หน้า Home แสดงการกดบันทึกผ่าน Provider](./images/image.png)
+![หน้า FavoritesPage แสดงรายการและราคารวม](./images/image-1.png)
+![หน้า FavoritesPage กดลบสินค้าออกจากรายการโปรด](./images/image-2.png)
+![หน้า Home ย้อนกลับมา ปุ่มกลับมากดบันทึกได้อีกครั้ง](./images/image-3.png)
 ---
 
 ## ส่วนที่ 3: ใช้ AI ช่วยเลือกแนวทาง State Management
@@ -718,8 +718,8 @@ class HomePage extends ConsumerWidget {
 
 > ✅ **Checkpoint 4.1** รันแอปด้วย `flutter run` (หรือกด F5 ใน VS Code) แล้วทดสอบกดปุ่ม "บันทึก" ที่สินค้าชิ้นใดก็ได้ ตรวจว่าตัวเลข ❤️ ที่ AppBar เพิ่มขึ้นถูกต้อง ถ่ายภาพหน้าจอแนบส่ง
 
-![ผลการรันเริ่มต้น Riverpod Trial](images/riverpod_trial.png)
-![ผลการกดบันทึกสินค้าตัวเลขใน AppBar อัปเดต](images/riverpod_trial_saved.png)
+![ผลการรันเริ่มต้น Riverpod Trial](./images/riverpod_trial.png)
+![ผลการกดบันทึกสินค้าตัวเลขใน AppBar อัปเดต](./images/riverpod_trial_saved.png)
 
 > ✅ **Checkpoint 4.2** เขียนตารางเปรียบเทียบสั้น ๆ ว่าตอนแปลงจาก Provider เป็น Riverpod ต้องเปลี่ยนอะไรบ้าง (เช่น `ChangeNotifier` → `StateNotifier`, `StatelessWidget` → `ConsumerWidget`, `context.watch` → `ref.watch`) อย่างน้อย 4 คู่เทียบ
 
@@ -761,9 +761,10 @@ class HomePage extends ConsumerWidget {
 
 > ✅ **Checkpoint 5.1** ถ่ายภาพหน้าจอฟีเจอร์ค้นหาที่กรองสินค้าได้ถูกต้อง และภาพ Dialog ยืนยันการล้างรายการโปรด เขียนอธิบายเหตุผลการเลือกชนิด State ของทั้งสองฟีเจอร์
 
-![ฟีเจอร์ช่องค้นหาสินค้า (Search Box)](images/search_box.png)
-![หน้าต่าง AlertDialog ยืนยันการล้างรายการโปรด](images/clear_dialog.png)
-![ผลลัพธ์หลังยืนยันการล้างรายการโปรดทั้งหมด](images/clear_done.png)
+![ฟีเจอร์ช่องค้นหาสินค้า (Search Box)](./images/search_box.png)
+![หน้ารายการโปรดของฉันแสดงสินค้าและปุ่มล้างรายการ](./images/favorites_list.png)
+![หน้าต่าง AlertDialog ยืนยันการล้างรายการโปรด](./images/clear_dialog.png)
+![ผลลัพธ์หลังยืนยันการล้างรายการโปรดทั้งหมด](./images/clear_done.png)
 
 ```text
 1. ฟีเจอร์ช่องค้นหาสินค้า (Search Box):
